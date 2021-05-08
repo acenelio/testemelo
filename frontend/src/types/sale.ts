@@ -9,7 +9,7 @@ export type Sale = {
     seller: Seller;
 }
 
-export type Salepage ={
+export type SalePage ={
     content?: Sale[];
     last: boolean;
     totalElements: number;
